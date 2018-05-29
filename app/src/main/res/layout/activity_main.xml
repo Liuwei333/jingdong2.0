@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ff00"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:background="#ff00"
+            android:textColor="#ffffff"
+            android:gravity="center_vertical"
+            android:id="@+id/back"
+            android:text="返回"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"
+            android:background="#ff00"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="标题"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:background="#ff00"
+            android:textColor="#ffffff"
+            android:gravity="right"
+            android:id="@+id/tijiao"
+            android:text="提交"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/wenan"
+            android:text="点击返回，这里调用finish"
+            android:background="#000000"
+            android:textColor="#ffffff"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
